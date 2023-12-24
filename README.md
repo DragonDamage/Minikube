@@ -230,7 +230,7 @@ $ export EDITOR=nano
 $ kubectl get services -n <namespace>
 
 # Редактируем конфигурации сервиса (Находим строку type: ClusterIP и меняем на type: NodePort)
-$ kubectl edit service <имя_сервиса> -n <namespace>
+$ kubectl edit service <name_service> -n <namespace>
 ```
 
 ---
