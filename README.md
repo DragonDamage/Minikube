@@ -132,12 +132,7 @@ spec:
 $ kubectl apply -f mysql.yaml
 ```
 
-## Prometheus Grafana
-<div>
-<img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-original-wordmark.svg" title="Prometheus" alt="Prometheus" width="50" height="50"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-original-wordmark.svg" title="Grafana" alt="Grafana" width="50" height="50"/>&nbsp;
-</div>
-
+### Prometheus Grafana
 - Настройка HELM:
 ```bash
 Используем Helm для развертывания
