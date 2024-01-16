@@ -23,7 +23,7 @@
 ```bash
 $ sudo apt update              # Обновляемся
 $ sudo apt upgrade             # Обновляемся
-$ sudo apt  install docker.io  # Устанавливаем Docker
+$ sudo apt install docker.io   # Устанавливаем Docker
 $ sudo apt install curl        # Устанавливаем курл
 $ sudo apt install virtualbox  # Устанавливаем VirtualBox
 ```
