@@ -39,6 +39,7 @@ $ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl  # Уст�
 $ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 $ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 $ minikube start --driver=docker --force  # Запускаем Minikube
+$ minikube start --driver=virtualbox --force  # Или так, если выдало ошибку
 $ minikube status  # Проверяем состояние Minikube
 $ minikube stop    # Остановить кластер
 ```
